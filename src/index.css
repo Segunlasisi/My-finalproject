@@ -1,0 +1,1038 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+ /*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* landingpage */
+.landingpageimage{
+  padding-left: 30px;
+  margin-top: -100px;
+  width: 200px;
+  padding-top: 100px;
+
+}
+
+
+.landingpage{
+  /* background-color: blueviolet; */
+
+}
+
+.landingpagemainflex{
+  display: flex;
+  background-color: blueviolet;
+
+
+}
+
+
+.navmobile{
+  display: none;
+  
+}
+
+.navbuysell{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.landingpageflex2{
+  padding-left: 41rem;
+  padding-top: 1rem;
+ 
+}
+
+.landingpagelink{
+  padding: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+.landingpagebutton1{
+top: 29px;
+left: 1180px;
+width: 196px;
+height: 36px;
+color: white;
+background-color:blueviolet;
+border-radius: 4px;
+/* border: solid; */
+/* opacity: 1; */
+border-color: white;
+}
+
+.landingpagebutton2{
+top: 29px;
+left: 1180px;
+width: 196px;
+height: 36px;
+background-color: white;
+margin-left: 14px;
+border-radius: 4px;
+border-color: white;
+}
+.landingpagehandp{
+background-color:blueviolet;
+height: 669px;
+
+
+}
+
+.landingpageh{
+  padding-top: 150px;
+  width: 500px;
+  padding-left: 30px;
+  color: white;
+  
+
+}
+
+
+.landingpagep{
+  padding-top: 25px;
+  width: 450px;
+  padding-left: 30px;
+  color: white;
+}
+
+.landingpagebutton3{
+  margin-top: 30px;
+    left: 1180px;
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    margin-left: 30px;
+    border-radius: 4px;
+     /* border: solid; */
+    border-color: white;
+    color:blueviolet;
+    
+    }
+
+.landingpage2n3{
+  padding-top: 25px;
+  padding-left: 30px;
+  
+}
+
+.landingpage3{
+padding-left: 5px;
+
+}
+
+
+
+.landingpagecrypto{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  padding-top: 30px;
+  }
+
+
+  .num{
+    padding-left: 40px;
+  }
+  
+
+  .num2{
+    padding-top: 20px;
+  }
+
+
+
+
+
+
+.section2h{
+  background-color:#F2F2F2;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.section2{
+  background-color:#F2F2F2;
+  padding-top: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+
+.section2handp{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 350px;
+}
+
+
+
+.section2p{
+  width: 480px;
+ 
+}
+
+
+
+.section3{
+  background-color: #F2F2F2;
+}
+
+
+.section3button{
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+.landingpagelearnmorebutton{
+  width:180px ;
+  height: 40px;
+}
+
+
+.section3flex1{
+  display: flex;
+  padding-left: 90px;
+}
+
+
+.section3h{
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+.section3landingpageimage1{
+margin-left: 400px;
+margin-top: 30px;
+width: 300px;
+}
+.section3landingpageimage{
+  width: 300px;
+}
+
+
+.section3h3{
+padding-top: 100px;
+padding-left: 90px;
+
+}
+
+.section3p{
+  padding-left: 90px;
+  padding-top: 10px;
+  width: 700px;
+}
+
+
+
+
+.section3deposit{
+  /* width: 600px; */
+  padding-left: 500px;
+
+
+}
+
+.section3deposith{
+  /* width: 600px; */
+  padding-left: 500px;
+  padding-top: 80px;
+
+}
+
+.section4p{
+padding-top: 100px;
+text-align: center;
+
+}
+
+.section4h{
+  padding-top: 15px;
+  text-align: center;
+  
+  }
+
+.section4maincon{
+  background-color: #FFFFFF;
+}
+
+.section4button{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.section4button1{
+  width:190px ;
+  height: 40px;
+  color:#FFFFFF;
+  background-color:  #7C20BF;
+
+}
+
+
+
+
+
+
+.section4appleandgoogle{
+  padding-top: 25px;
+  padding-left: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;
+  /* color: black; */
+}
+
+.empty{
+  background-color: hsl(0, 0%, 100%);
+  padding-bottom:80px ;
+}
+
+.section5maincon{
+  background-color:#F2F2F2 ;
+  
+
+}
+
+
+.section5h{
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 100px;
+}
+
+
+
+.section5flexcon{
+display: flex;
+justify-content: space-evenly;
+}
+
+
+
+
+.unionimage{
+  background-image: url("../src/images/Union.svg");
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 500px;
+  margin-left: 50px;
+  
+}
+
+
+.Group0{
+  padding-left:6% ;
+  padding-top: 10%;
+}
+
+
+.Group1{
+  color: #FFFFFF;
+  text-align: center;
+  width: 400px;
+}
+
+.footermaincon{
+display: flex; 
+background-color: #FFFFFF;
+}
+
+.footermainflex1{
+  display: flex;
+}
+
+.footerflexmaincon2{
+  display: flex;
+}
+
+
+.footerflex{
+  padding-left: 100px;
+}
+
+
+
+.bfooter{
+text-align: center;
+background-color:#F2F2F2 ;
+}
+
+div.footerflex p{
+padding-top: 5px;
+}
+
+.Group79{
+  padding-top: 10px;
+
+}
+
+
+
+
+.formheading{
+padding-top: 30px;
+}
+
+.getform{
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+ 
+}
+
+.getform3{
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 32px;
+}
+
+
+.getlink{
+color: #7C20BF;
+text-decoration: none;
+}
+
+.getbutton{
+  width: 150px;
+  height: 23px;
+  border-radius: 3px;
+ 
+}
+
+.getbutton2{
+  width: 150px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+.getbutton3{
+  position: relative;
+  right: 6px;
+  
+}
+
+.getbuttondiv{
+  padding-top: 24px;
+}
+
+.getformdiv{
+  padding-top:66px ;
+}
+.getlink2{
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+.getbuttonsignup{
+  width: 300px;
+  height: 33px;
+  background: #7C20BF 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  color:#ffff;
+}
+
+.getbuttonsignupdiv{
+padding-top: 40px;
+padding-bottom: 20px;
+}
+
+.Getstartedpageform{
+width: 453px;
+height: 586px;
+background: #FBF8FD 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 3px #000000;
+opacity: 1;
+margin-left: 550px;
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.getnav{
+  margin-left: 10px;
+}
+
+.instantsellgetstartedlink{
+  padding: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+.instantbuysellbutton{
+  top: 29px;
+  left: 1180px;
+  width: 196px;
+  height: 36px;
+  background-color: white;
+  margin-left: 14px;
+  border-radius: 4px;
+  border-color: white;
+}
+.spamNGN{
+position: relative;
+left:44px;
+height: 30px;
+
+}
+
+.getform2{
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  margin-right: 40px;
+}
+
+.labelforcrypto{
+  padding-right: 220px;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-top: 60px;
+  
+}
+
+.labelforcrypto1{
+  padding-right: 240px;
+  font-weight: bolder;
+  font-size: 15px;
+ margin-top: 35px;
+}
+
+.labelforcrypto2{
+  padding-right: 240px;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: 35px;
+ 
+  
+}
+
+.ngngetform{
+padding-right: 26px;
+}
+
+.loginlink{
+  padding-left: 70px;
+}
+
+.loginbutton{
+  width: 300px;
+  height: 33px;
+  background: #7C20BF 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  color:#ffff;
+}
+
+.loginbuttondiv{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  }
+
+
+  .Loginpageform{
+    width: 453px;
+    height: 500px;
+    background: #FBF8FD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #000000;
+    opacity: 1;
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+
+  .getbuttondiv2{
+  text-align: center;
+  position: relative;
+
+  top:  140px; 
+  left: 5px;
+  
+  }
+
+
+.dashtrad_div{
+  margin-top: 15px;
+}
+.dashtradimg{
+  background-color: #000000;
+}
+
+
+.dashbsec1{
+  top: 0px;
+  left: 0px;
+  width: 249px;
+  height: 1526px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.dashb{
+width: 25px;
+
+}
+
+
+.wallet{
+  margin-top: 2vh;
+  margin-left: 1vw;
+  background-color: white;
+  height: 15vh;
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.wallet img{
+  height: 3vh;
+  width: 3vw;
+}
+.bank_space{
+  width: 13vw;
+  height: 10vh;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+}
+.bank, .income{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bank_space span{
+  font-size: 10px;
+}
+.wallet_money{
+  font-size: 30px;
+  position: relative;
+  top: 4vh;
+}
+.naija{
+  font-size: 20px;
+  
+}
+.income_img, .bank_img{
+  background-color: #D0CDE1;
+  padding: 5px 5px;
+  border-radius: 50%;
+  height: 6vh;
+  /* margin-bottom: 20px; */
+  
+}
+
+.cryptowalletbal{
+  background-color: blueviolet;
+  width: 300px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 8px;
+
+}
+.cryptowalletbalflex{
+  display: flex;
+}
+
+.cryptowalletbal img{
+padding-left: 20px;
+padding-top: 20px;
+  
+}
+
+.cryptowalletba2 {
+  background-color:#FFFFFF;
+  width: 250px;
+  height: 100px;
+  margin: 2px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+
+.crypt{
+color: #FFFFFF;
+padding: 30px;
+padding-bottom: 10px;
+
+}
+
+
+
+@media (max-width:425px){  
+
+  .wallet{
+    width: 94vw;
+    height: 15vh;
+}
+.bank_space{
+    display: none;
+}
+
+
+
+  body{
+    background-color: aqua;
+  }
+
+.landingpagehandp{
+   
+    height: 500px;
+}
+  
+.landingpageflex2{
+  display: none;
+
+
+}
+
+.landingpageh{
+  font-size: 15px;
+  width: 350px;
+  font-weight: bolder;
+  
+}
+
+.landingpagep{
+  font-size: 12px;
+  width: 320px;
+  
+}
+
+.landingpagebutton3{
+  width: 150px;
+  height: 27px;
+}
+
+
+
+.landingpages3{
+  /* padding-right: 60px;
+  border-color: #FBF8FD;
+  width: 60px;
+  height:30px ; */
+padding: 0%;
+margin: 0%;
+
+}
+
+.section2h{
+  padding-top: 20px;
+  font-size:17px ;
+  padding-right: 35px;
+  width: 390px;
+}
+
+.section2{
+  display: grid;
+  background-color: #FFFFFF;
+}
+
+.landingpageimage{
+  width:150px ;
+}
+
+
+
+
+.section2p{
+  display: grid;
+  width: 300px;
+  font-size: 15px;
+ 
+}
+
+
+
+.section3flex1{
+  display: grid;
+  padding: 0%;
+
+}
+
+
+
+.section3h{
+font-size: 12px;
+
+}
+
+.mobilesec3{
+ padding-left: 20px;
+ padding-top: 40px;
+ 
+}
+
+
+.section3h3{
+  padding: 0%;
+  /* padding-top: 30px;
+  font-size: 17px;
+  text-align: start;
+  padding-right: 80px; */
+}
+
+
+
+.section3p{
+  padding: 0%;
+  width: 310px;
+font-size: 15px;
+ 
+}
+
+
+
+.section3landingpageimage1{
+  width: 200px;
+  margin-left: 5px;
+ 
+}
+
+
+
+
+
+.section3landingpageimage{
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 150px;
+   
+}
+.mobilesec3_1{
+  padding:0%;
+  padding-right: 100px;
+  padding-bottom: 55px;
+  
+  padding-left: 15px;
+}
+
+.section3deposith{
+  padding: 0%;
+  
+}
+
+.section3deposit{
+padding: 0%;
+}
+.landingpage3{
+ margin: 0px;
+ padding: 0px;
+ padding-left:6px;
+}
+
+
+
+.section4p{
+  font-size: 15px;
+  width: 320px;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.section4h{
+  font-size: 15px;
+}
+
+.landingpages3{
+  width: 156px;
+  padding-left: 5px;
+}
+
+.section5flexcon{
+display: grid;
+
+}
+
+.Group0{
+  width: 45px;
+}
+
+
+
+.unionimage{
+ width: 300px;
+ margin-right:40px ;
+ border-radius: 8px;
+
+}
+
+.Group1{
+   padding-left: 10px;
+  margin-left: 0px;
+  width: 250px;
+  /* text-align: center; */
+}
+
+.footermaincon{
+  display: grid;
+  /* padding: 3px; */
+  font-size: small;
+}
+.footerflexmaincon2{
+  display: flex;
+  padding: 5px;
+  font-size: small;
+}
+.footerflex{
+  display: grid;
+  padding: 3.8px;
+  font-size: small;
+}
+
+.Group79{
+ width: 100px;
+}
+
+.bfooter{
+  font-size: small;
+}
+
+.Getstartedpageform{
+position:relative;
+right: 500px;
+width:250px ;
+height: 500px;
+
+
+}
+
+.labelforcrypto{
+  padding: 0%;
+  padding-right: 106px;
+  font-size: small;
+
+
+}
+
+.labelforcrypto1{
+  padding: 0%;
+  padding-right: 120px;
+  font-size: small;
+}
+
+.labelforcrypto2{
+  padding: 0%;
+  padding-right: 116px;
+  font-size: small;
+}
+
+
+.getformdiv{
+ text-align: center;
+ padding: 0%;
+ margin: 0%;
+ padding-top: 70px;
+ 
+}
+
+
+.getform{
+width: 180px;
+height: 25px;
+
+}
+
+.getform3{
+  width: 180px;
+  height: 25px;
+  padding: 0px;
+}
+
+.getlink2{
+  font-size: 9px;
+  
+}
+
+.loginlink{
+  padding: 2%;
+}
+
+
+.getbuttonsignup{
+  width: 180px;
+}
+.formheading{
+  font-size: medium;
+}
+
+.Loginpageform{
+margin: 0%;
+margin-left: 40px;
+width:260px ;
+height: 400px;
+margin-top: 40px;
+}
+
+.loginbutton{
+ width: 180px;
+}
+
+
+.ngngetform{
+  padding: 0%;
+  padding-right: 16px;
+  
+  }
+
+.cryptowalletbalflex{
+  display: grid;
+}
+
+
+.landingpagecrypto{
+display: grid;
+
+}
+
+.navmobile{
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  
+  
+ 
+ 
+  
+}
+
+
+
+
+
+}
+
+
+
+  
