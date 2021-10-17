@@ -13,7 +13,7 @@ const Nav_indvidual_business = () => {
 
   const switchtobussiness = () => {
     setState('bussiness')
-  }
+  } 
 
   if (state === 'individual') {
     return (
@@ -24,6 +24,15 @@ const Nav_indvidual_business = () => {
 
           <span className='getbutton3' onClick={switchtobussiness}> <button className='getbutton'>Business</button> </span>
         </div>
+
+
+
+        <div className='mobilegetbuttondiv2'>
+          <button className='mobilegetbutton' onClick={switchtoindividual}>Individual</button>
+
+          <span className='mobilegetbutton3' onClick={switchtobussiness}> <button className='mobilegetbutton'>Business</button> </span>
+        </div>
+
 
 
 
@@ -46,6 +55,13 @@ const Nav_indvidual_business = () => {
 
           <span className='getbutton3' onClick={switchtobussiness}> <button className='getbutton'>Business</button> </span>
         </div>
+
+        <div className='mobilegetbuttondiv2'>
+          <button className='mobilegetbutton' onClick={switchtoindividual}>Individual</button>
+
+          <span className='mobilegetbutton3' onClick={switchtobussiness}> <button className='mobilegetbutton'>Business</button> </span>
+        </div>
+        
 
 
         <div>

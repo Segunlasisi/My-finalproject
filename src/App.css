@@ -1,30 +1,14 @@
 .getstartedd{
     display: flex;
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
 }
 .getstartedd_sectionone{
     background-color: white;
     height: 100vh;
     width: 20vw;
-    
-    }
-
-.getstartedd_sectionone li{
-padding: 30px;
-}
-
-
-.getstartedd_sectionone button{
-    width: 200px;
-}
-.contactbut{
-    padding-top: 100px; 
-    padding-right: 180px;
-
    
 }
-
 .getstartedd_sectiontwo{
     background-color: #E4E4E4;
     height: 100vh;
@@ -62,9 +46,19 @@ ul{
     flex-direction: column;
     justify-content: space-around;
 }
-.getstartedd_sectionone > li{
-    font-size: 35px;
+.getstartedd_sectionone li{
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+    
+  
 }
+
+.contactbut{
+    padding-top: 130px;
+}
+
 .contact_support{
     padding: 10px 20px;
     background-color: white;
@@ -82,16 +76,13 @@ ul{
     justify-content: space-between;
     overflow-x:auto;
 }
-/* .fetchy{
+.fetchy{
     position: relative;
     top: 4vh;
     left: 2vh;
     width: 76vw;
-    overflow-x:auto; */
-/* } */
-
-
-
+    overflow-x:auto;
+}
 @media (max-width:425px){
     .getstartedd{
         flex-direction: column;
@@ -107,18 +98,19 @@ ul{
     .icon_nav{
         width: 100vw;
     }
-    
-    /* .ppp{
+    .crypto_wallet_bal{
+        width: 100vw;
+        height: 70vh;
+    }
+    .ppp{
         flex-direction: column;
         justify-content: space-between;
         height: 70vh;
-    } */
-    /* .fetchy{
+    }
+    .fetchy{
         top: 20vh;
         left: 1vw;
         width: 100vw;
         background-color: #E4E4E4;
-    } */
-
-    
+    }
 }

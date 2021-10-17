@@ -14,7 +14,7 @@ import Group0 from '../images/Group0.svg'
 
 
 const Landing_page =  (props) => {
-    console.log(props);
+    console.log(props.Data);
     return (
         <div className="landingpage">
            
@@ -32,8 +32,16 @@ const Landing_page =  (props) => {
 
 
                                <div className='landingpagecrypto'>
-                                     <div>BTC/NGN  <spam className='num'>-3.21</spam> <div className='num2'>46,000,000 NGN </div> </div>  
+                                     
 
+                                     {
+                                         props.Data.map(d=>{
+                                             return(
+                                                <div>{d.id}/NGN  <spam className='num'>{d.market_cap_dominance}</spam> <div className='num2'>{parseInt(d.price) * 465} NGN </div> </div>
+                                             )
+                                         })
+                                     }  
+                                    
                                     
                                </div>
 

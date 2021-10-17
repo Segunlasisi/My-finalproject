@@ -34,13 +34,13 @@ function App() {
   }
 
   
-  // useEffect(()=>{
-  //   getData()
+  useEffect(()=>{
+    getData()
 
-  // }
-  // ,[]
+  }
+  ,[]
 
-  // )    
+  )    
 
   return (
    <Router>

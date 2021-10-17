@@ -576,13 +576,41 @@ padding-right: 26px;
   .getbuttondiv2{
   text-align: center;
   position: relative;
-
   top:  140px; 
   left: 5px;
   
   }
 
 
+
+
+
+.mobilegetbuttondiv2{
+display: none;
+}
+
+.mobilegetbutton3{
+  width:50px ;
+}
+
+.mobilegetbutton2{
+  width: 80px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+.mobilegetbutton4{
+  width: 80px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+.mobilegetbuttondiv5{
+  display: block;
+  position: relative;
+  top: 100px;
+  left: 80px;
+}
 .dashtrad_div{
   margin-top: 15px;
 }
@@ -689,8 +717,27 @@ padding-bottom: 10px;
 }
 
 
+.mobilegetbuttondiv5{
+  display: none;
+}
+
 
 @media (max-width:425px){  
+
+  .getbuttondiv2{
+    
+    display: none;
+     }
+
+
+.mobilegetbuttondiv2{
+display: block;
+position: relative;
+top: 100px;
+left: 100px;
+}
+
+
 
   .wallet{
     width: 94vw;
@@ -920,10 +967,11 @@ display: grid;
 }
 
 .Getstartedpageform{
-position:relative;
-right: 500px;
-width:250px ;
-height: 500px;
+
+margin:0%;
+width:290px ;
+height: 480px;
+margin-left: 20px;
 
 
 }
@@ -972,7 +1020,13 @@ height: 25px;
 
 .getlink2{
   font-size: 9px;
+  margin: 0%;
+  padding: 0%;
   
+}
+
+.getbuttonsignupdiv{
+  padding-bottom: 14px;
 }
 
 .loginlink{

@@ -18,12 +18,17 @@ const Navbuy_sell = () => {
             <div>    
                 <div  className='getbuttondiv2'>
                    <button className='getbutton' onClick={switchCompToBuy}>Buy</button>
-                     <span className='getbutton3'><button className='getbutton2' onClick={switchCompToSell}>Sell</button></span>
-
-
+                     <span className='getbutton3'>
+                         <button className='getbutton2' onClick={switchCompToSell}>Sell</button></span>
                
                  </div>
-            
+
+
+                 <div  className='mobilegetbuttondiv5'>
+                   <button className='mobilegetbutton4' onClick={switchCompToBuy}>Buy</button>
+                     <span className='mobilegetbutton3'><button className='mobilegetbutton2' onClick={switchCompToSell}>Sell</button></span>               
+                 </div>
+  
 
           
             <Instant_buy />
@@ -37,11 +42,18 @@ const Navbuy_sell = () => {
             <div>    
                 <div  className='getbuttondiv2'>
                 <button className='getbutton' onClick={switchCompToBuy}>Buy</button>
-               <span className='getbutton3'><button className='getbutton2' onClick={switchCompToSell}>Sell</button></span>
-
-
-               
+               <span className='getbutton3'><button className='getbutton2' onClick={switchCompToSell}>Sell</button></span>     
             </div>
+
+            <div  className='mobilegetbuttondiv5'>
+                <button className='mobilegetbutton4' onClick={switchCompToBuy}>Buy</button>
+               <span className='mobilegetbutton3'><button className='mobilegetbutton2' onClick={switchCompToSell}>Sell</button></span>
+            </div>
+
+
+            
+
+            
             
 
           
