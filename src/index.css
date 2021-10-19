@@ -1095,8 +1095,5 @@ display: grid;
 
 
 @media screen and (max-width: 769px) {
-  body {
-    background-color: olive;
-  }
 }
   

@@ -8,6 +8,7 @@ import Union  from '../images/Union.svg'
 import Group79 from '../images/Group79.svg'
 import bfooter from '../images/bfooter.svg'
 import Group0 from '../images/Group0.svg'
+import { Link } from "react-router-dom";
 
 
 
@@ -120,7 +121,7 @@ const Landing_page =  (props) => {
                          <h2  className='section4h'>Create your account for free and start trading today!</h2>
                            
                            <div className='section4button'>
-                                 <button  className='section4button1'>Get Started</button>
+                           <Link to='/nav_indvidual_business'>  <button  className='section4button1'>Get Started</button> </Link>
                            </div>
 
 
