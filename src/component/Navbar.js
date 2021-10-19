@@ -50,7 +50,7 @@ const Navbar = () => {
       <div className='navmobile'>
       
         <Link to='/navbuy_sell'> <li className='navbuysell'  >Instant Buy/Sell</li></Link>
-         <Link to='/Dashboard'>  <span className='landingpagelink'>Board</span></Link>
+         <Link to='/Dashboard'>  <span className='landingpagelink'>DashBoard</span></Link>
 
         <Link to='/Login'>  <li className='navbuysell'  > Log in</li> </Link>
         <Link to='/nav_indvidual_business'><li className='navbuysell'  >Get Started</li></Link>
