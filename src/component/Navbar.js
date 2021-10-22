@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
+import { Link, } from 'react-router-dom';
 import Navbuy_sell from './Navbuy_sell';
 import TradExpress from '../images/TradExpress.svg'
+// import { useState } from 'react';
 
 
 
@@ -30,7 +31,7 @@ const Navbar = () => {
 
     <div className='landingpagemainflex'>
       <div className='landingpageflex1'>
-        <Link to='/'>   <img className='landingpageimage' src={TradExpress} ></img>
+        <Link to='/'> <img className='landingpageimage' src={TradExpress} ></img>
         </Link>
       </div>
 
@@ -49,7 +50,7 @@ const Navbar = () => {
 
       <div className='navmobile'>
       
-        <Link to='/navbuy_sell'> <li className='navbuysell'  >Instant Buy/Sell</li></Link>
+        <Link to='/navbuy_sell'> <li className='navbuysell'>Instant Buy/Sell</li></Link>
          <Link to='/Dashboard'>  <span className='landingpagelink'>DashBoard</span></Link>
 
         <Link to='/Login'>  <li className='navbuysell'  > Log in</li> </Link>

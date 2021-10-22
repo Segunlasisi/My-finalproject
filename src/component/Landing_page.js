@@ -1,4 +1,3 @@
-import React from "react";
 
 import Appstore from '../images/Appstore.svg'
 import Googleplay from '../images/Googleplay.svg'
@@ -8,22 +7,36 @@ import Union  from '../images/Union.svg'
 import Group79 from '../images/Group79.svg'
 import bfooter from '../images/bfooter.svg'
 import Group0 from '../images/Group0.svg'
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 
 
 
 
 
-const Landing_page =  (props) => {
-    console.log(props.Data);
+
+
+const Landing_page =  ({Data}) => {
+const scrolly =  () => {window.scrollBy
+(0,2000)
+}
+    
+
     return (
+       
+
+
+
         <div className="landingpage">
            
                     <div className='landingpagehandp'>
                         <h1 className='landingpageh '>Buy, Sell and manage your Crypto on TradExpress. </h1>
                         <p className='landingpagep'> Easily trade Cryptocurrencies like Btc,USDT,ETH,LTC & XPR   with NGN.</p>
 
+                        <Link to='/Nav_indvidual_business'> 
+                        
                         <button className='landingpagebutton3'>Get Started</button>
+                        </Link>
 
                          <div className='landingpage2n3' >
                             <img className='landingpages3'  src={Googleplay} alt=""></img>
@@ -34,15 +47,19 @@ const Landing_page =  (props) => {
 
                                <div className='landingpagecrypto'>
                                      
+                                     {Data.map((d,index)=>{
+                                         return(
+                                            <div key={index}>
+                                                <article>
+                                                {d.id}/NGN  <spam className='num'>{d.market_cap_dominance}</spam> 
+                                                </article>
+                                                <div className='num2'>{parseInt(d.price) * 465} NGN 
+                                                </div>
+                                           </div>
+                                         )
+                                     })}
 
-                                     {
-                                         props.Data.map(d=>{
-                                             return(
-                                                <div>{d.id}/NGN  <spam className='num'>{d.market_cap_dominance}</spam> <div className='num2'>{parseInt(d.price) * 465} NGN </div> </div>
-                                             )
-                                         })
-                                     }  
-                                    
+                                
                                     
                                </div>
 
@@ -79,7 +96,7 @@ const Landing_page =  (props) => {
                      <div className='section3' >
 
                            <div className='section3button' > 
-                               <button className='landingpagelearnmorebutton'>Learn More</button>
+                               <button className='landingpagelearnmorebutton' onClick = {scrolly}>Contact</button>
                            </div>   
 
                                 <h2 className='section3h'>Buy and Sell your Cryptocurrency in 3 simple steps</h2>
@@ -121,7 +138,8 @@ const Landing_page =  (props) => {
                          <h2  className='section4h'>Create your account for free and start trading today!</h2>
                            
                            <div className='section4button'>
-                           <Link to='/nav_indvidual_business'>  <button  className='section4button1'>Get Started</button> </Link>
+                       <Link to ="/Login" >  <button  className='section4button1'>Get Started </button>  </Link>
+                           
                            </div>
 
 
@@ -143,11 +161,6 @@ const Landing_page =  (props) => {
                            </div>    
                            </div>
 
-                           {/* <div className='section5maincon'>
-                                  <h2 className='section5h'>Customer's Review</h2>
-                                  <img className='unionimage' src={Union} alt="" ></img>
-                                  <img className='unionimage' src={Union} alt="" ></img><img className='unionimage' src={Union} alt="" ></img>
-                           </div> */}
 
                      </div>
               
@@ -216,8 +229,11 @@ const Landing_page =  (props) => {
              </div>
                           
          </div>
+    
     )
-}
+    }
+                    
+
 
 
 export default Landing_page
