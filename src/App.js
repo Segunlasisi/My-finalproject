@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './component/Navbar';
 import Landing_page from './component/Landing_page';
@@ -14,17 +14,18 @@ import {BrowserRouter as Router, Switch,Route } from 'react-router-dom'
 
 
 
+
 function App() {
   //  implementing a state variable
-  const [Data,setData]= useState([])
+  const [Data,setData]=useState([])
        
   // create a function to fetch data
-  const getData = async () => {
+  const getData=async () => {
 
 
     let response = await fetch('https://api.nomics.com/v1/currencies/ticker?key=2b608f1fec12e145ea2c885cf2cbc2d8e49786f9&ids=BTC,ETH,XRP,LTC,AB,ABL&interval=1d,30d&convert=EUR&per-page=100&page=1')
   
-    let myData = await response.json()
+    let myData=await response.json()
     // console.log(myData);
     setData(myData)
 
@@ -53,15 +54,15 @@ function App() {
                <Landing_page Data={Data}/>
              </Route>
             
-            <Route path = "/Login" component = {Login}/>
+            <Route path = "/Login" component={Login}/>
           
-             <Route  path = "/verifyemail" component = {Verifyemail}/>
+             <Route  path = "/verifyemail" component={Verifyemail}/>
           
-            <Route   path = "/navbuy_sell" component = {Navbuy_sell}/>
+            <Route   path = "/navbuy_sell" component={Navbuy_sell}/>
           
-             <Route   path = "/nav_indvidual_business" component = {Nav_indvidual_business}/>
+             <Route   path = "/nav_indvidual_business" component={Nav_indvidual_business}/>
           
-             <Route  path = "/Dashboard" component = {Dashboard}/>
+             <Route  path = "/Dashboard" component={Dashboard}/>
 
              {/* <Route  path = "*" component = {NotFound}/> */}
                </Switch> 

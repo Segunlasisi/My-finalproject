@@ -23,14 +23,10 @@ import {FiLogOut} from 'react-icons/fi'
 import {FaBlogger} from 'react-icons/fa'
 import {CgProfile} from 'react-icons/cg';
 import {RiDashboardLine, RiExchangeDollarFill} from 'react-icons/ri'
-// import '../styles/dashboard.css';
-//import Wallet from '../components/Wallet';
-// import IndCryptoBal from '../components/IndCryptoBal';
 import tether from '../images/tether.svg';
-// import Fetcher from '../components/Fetcher';
 import income from '../images/income.png'
 import bank from  '../images/bank.jpg'
-import {BsBank2} from 'react-icons/bs'
+// import {BsBank2} from 'react-icons/bs'
 
 
 const Dashboard = (props) => {

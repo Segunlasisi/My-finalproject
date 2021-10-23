@@ -3,12 +3,12 @@ import Appstore from '../images/Appstore.svg'
 import Googleplay from '../images/Googleplay.svg'
 import Buyandsell from '../images/Buyandsell.svg'
 import Deposit from    '../images/Deposit.svg'
-import Union  from '../images/Union.svg'
 import Group79 from '../images/Group79.svg'
 import bfooter from '../images/bfooter.svg'
 import Group0 from '../images/Group0.svg'
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
+
 
 
 

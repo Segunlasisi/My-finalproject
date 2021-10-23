@@ -1,7 +1,8 @@
-import { Link, } from 'react-router-dom';
-import Navbuy_sell from './Navbuy_sell';
+import {Link,} from 'react-router-dom';
 import TradExpress from '../images/TradExpress.svg'
 // import { useState } from 'react';
+import React from 'react';
+
 
 
 
@@ -31,15 +32,15 @@ const Navbar = () => {
 
     <div className='landingpagemainflex'>
       <div className='landingpageflex1'>
-        <Link to='/'> <img className='landingpageimage' src={TradExpress} ></img>
+        <Link to='/'><img className='landingpageimage' src={TradExpress}></img>
         </Link>
       </div>
 
       <div className='landingpageflex2'>
-        <Link to='/navbuy_sell'> <span className='landingpagelink' >Instant Buy/Sell</span></Link>
-        <Link to='/Dashboard'>  <span className='landingpagelink'>Board</span></Link>
+        <Link to='/navbuy_sell'><span className='landingpagelink'>Instant Buy/Sell</span></Link>
+        <Link to='/Dashboard'><span className='landingpagelink'>Board</span></Link>
 
-        <Link to='/Login'>  <button className='landingpagebutton1'> Log in</button> </Link>
+        <Link to='/Login'><button className='landingpagebutton1'>Log in</button></Link>
         <Link to='/nav_indvidual_business'><button className='landingpagebutton2'>Get Started</button></Link>
       </div>
 
@@ -50,11 +51,11 @@ const Navbar = () => {
 
       <div className='navmobile'>
       
-        <Link to='/navbuy_sell'> <li className='navbuysell'>Instant Buy/Sell</li></Link>
-         <Link to='/Dashboard'>  <span className='landingpagelink'>DashBoard</span></Link>
+        <Link to='/navbuy_sell'><li className='navbuysell'>Instant Buy/Sell</li></Link>
+         <Link to='/Dashboard'><span className='landingpagelink'>DashBoard</span></Link>
 
-        <Link to='/Login'>  <li className='navbuysell'  > Log in</li> </Link>
-        <Link to='/nav_indvidual_business'><li className='navbuysell'  >Get Started</li></Link>
+        <Link to='/Login'><li className='navbuysell'  > Log in</li></Link>
+        <Link to='/nav_indvidual_business'><li className='navbuysell'>Get Started</li></Link>
 
         </div>
 
@@ -67,4 +68,4 @@ const Navbar = () => {
 }
 
 
-      export default Navbar;
+export default Navbar;

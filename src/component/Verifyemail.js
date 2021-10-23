@@ -1,5 +1,4 @@
 import React from 'react'
-import TradExpress from '../images/TradExpress.svg'
 import mailing from '../images/mailing.svg'
 
 const Verifyemail = () => {
