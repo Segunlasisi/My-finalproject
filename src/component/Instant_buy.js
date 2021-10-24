@@ -11,9 +11,7 @@ const Instant_buy = (props) => {
        
             <div className='Getstartedpageform'>
                <form>
-                          <h2 className='formheading'>Buy/Sell Instantly</h2>
-
-                  
+                          <h2 className='formheading'>Buy/Sell Instantly</h2>                  
 
            <div className='getformdiv'>
             
@@ -39,8 +37,6 @@ const Instant_buy = (props) => {
 
                   <div className='labelforcrypto2'><label for="Amount">Amount</label></div>
                    <div className='ngngetform'>
-
-                  {/* <button className='spamNGN' >NGN</button>  */}
                   
                   <input   className='getform3'  type="Amount" id="Amount" name="Amount" placeholder='NGN'   />  </div>
 
@@ -48,10 +44,7 @@ const Instant_buy = (props) => {
                      <button  className='getbuttonsignup'> Continue</button>
           </div> 
   </div>
-               
-
-
-
+              
                 </form>
             </div>
         </div>

@@ -1,32 +1,18 @@
 import React from 'react';
 import TradExpress from "../images/TradExpress.svg";
-// import dashb from '../images/dashb.jpeg';
-// import exchange_rate from '../images/exchange_rate.png'
-// import wallet_icon from '../images/wallet_icon.jpeg'
-// import learn from '../images/learn.jpeg'
-// import blog from '../images/blog.jpeg'
-// import profile from '../images/profile.jpeg'
-// import setting from '../images/setting.jpg'
-// import logout from '../images/logout.jpeg'
-// import line from '../images/line.jpeg'
-// import notification from '../images/notification.jpeg';
-// import Ngn_deposit from '../images/Ngn_deposit.jpeg'
-// import Ngn_redraw from '../images/Ngn_redraw.jpeg'
- import bitcoin from  '../images/bitcoin.svg'
- import ethereum from  '../images/ethereum.svg'
- import litecoin from  '../images/litecoin.svg'
-// import tether from  '../images/tether.svg'
-// import img1 from '../images/trad.png'
+import bitcoin from  '../images/bitcoin.svg';
+import ethereum from  '../images/ethereum.svg';
+import litecoin from  '../images/litecoin.svg';
 import {BiMenuAltLeft, BiPencil} from 'react-icons/bi';
 import {AiOutlineBell, AiFillWallet,AiOutlineSetting} from 'react-icons/ai';
-import {FiLogOut} from 'react-icons/fi'
-import {FaBlogger} from 'react-icons/fa'
+import {FiLogOut} from 'react-icons/fi';
+import {FaBlogger} from 'react-icons/fa';
 import {CgProfile} from 'react-icons/cg';
-import {RiDashboardLine, RiExchangeDollarFill} from 'react-icons/ri'
+import {RiDashboardLine, RiExchangeDollarFill} from 'react-icons/ri';
 import tether from '../images/tether.svg';
-import income from '../images/income.png'
-import bank from  '../images/bank.jpg'
-// import {BsBank2} from 'react-icons/bs'
+import income from '../images/income.png';
+import bank from  '../images/bank.jpg';
+
 
 
 const Dashboard = (props) => {
@@ -88,27 +74,9 @@ const Dashboard = (props) => {
                                      <div className='cryptowalletba2'>ETH/NGN  <spam className='num3'>-3.21</spam> <div className='num2'>46,000, NGN </div> </div>
                                      <div className='cryptowalletba2'>BTC/NGN  <spam className='num3'>-3.21</spam> <div className='num2'>46,000,000 NGN </div> </div>  
                                      <div className='cryptowalletba2'>BTC/NGN  <spam className='num3'>-3.21</spam> <div className='num2'>46,000,000 NGN </div> </div>   <div className='cryptowalletba2'>BTC/NGN  <spam className='num3'>-3.21</spam> <div className='num2'>46,000,000 NGN </div> </div>  
-
-
-                                    
-                               </div>
-                
-                                      
-                                        
-
-
-
-
-                  {/* <div className='ppp'> */}
-                    
-                      {/* <IndCryptoBal crypto='bitcoin' balance='1.67' img={bitcoin}/>
-                      <IndCryptoBal crypto='USDT' balance='100.67' img={usdt}/>
-                      <IndCryptoBal crypto='ethereum' balance='41.67' img={ethereum}/> */}
-                  {/* </div> */}
+                               </div>     
               </section> 
-              {/* <section className='fetchy'>
-                  <Fetcher my_data={props.my_data}/>
-              </section>     */}
+           
           </section>
           
       </section>

@@ -1,6 +1,5 @@
 import {Link,} from 'react-router-dom';
 import TradExpress from '../images/TradExpress.svg'
-// import { useState } from 'react';
 import React from 'react';
 
 
@@ -8,25 +7,6 @@ import React from 'react';
 
 
 const Navbar = () => {
-  // const[toggle,setToggle] =useState(true)
-  // // switch the mobile menu  on and off 
-  // const flip = () =>{
-  //   let navmob =Document.getElementbyId('navmoblie');
-  //   if (toggle){
-  //     navmob .style.display ='block'
-  //     setToggle(!toggle)
-
-  //   }else{
-  //     navmob .style.display ='none'
-  //     setToggle(!toggle)
-
-  //   }
-
-
-
-  // }
-
-
   return (
 
 

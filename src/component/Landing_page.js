@@ -11,11 +11,6 @@ import { Link } from 'react-router-dom'
 
 
 
-
-
-
-
-
 const Landing_page =  ({Data}) => {
 const scrolly =  () => {window.scrollBy
 (0,2000)

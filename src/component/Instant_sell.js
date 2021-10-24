@@ -7,14 +7,12 @@ import { Link } from 'react-router-dom'
 const Instant_sell = () => {
     return (
 
-
         <div>        
             <div className='Getstartedpageform'>
                <form>
                           <h2 className='formheading'>Buy/Sell Instantly</h2>
 
-              
-
+            
            <div className='getformdiv'>
             
                <div className='labelforcrypto'><label for="Crypto">Coin to Sell</label></div>
@@ -47,9 +45,6 @@ const Instant_sell = () => {
           </div> 
   </div>
                
-
-
-
               </form>
             </div>
         </div>

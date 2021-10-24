@@ -2,29 +2,10 @@ import React from 'react'
 import mailing from '../images/mailing.svg'
 
 const Verifyemail = () => {
-    return (
-        
-      
+    return ( 
 
-     <div>
-                    {/* <div className='landingpagemainflex'>
-      <div className='landingpageflex1'> 
-            <img className='landingpageimage' src={TradExpress} alt=""></img> 
-      </div>
-<div className='getnav'>
-  <div className='landingpageflex2'>
-      <a className='landingpagelink' href="">Instant Buy/Sell</a>
-      <a className='landingpagelink' href="">Learn</a>
-     
-        <a className='landingpagelink' href="">Log in</a>
-        
-        <button className='landingpagebutton2'>Get Started</button>
-    </div>
-</div>
-    
-
-</div> */}
-<div className='Loginpageform'>
+<div>            
+      <div className='Loginpageform'>
                 <form>
                     <h1 className=''>You're Almost In!</h1>
                     <h1>Welcome Iretiayo</h1>

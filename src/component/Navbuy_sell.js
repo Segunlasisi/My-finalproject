@@ -49,13 +49,6 @@ const Navbuy_sell = () => {
                 <button className='mobilegetbutton4' onClick={switchCompToBuy}>Buy</button>
                <span className='mobilegetbutton3'><button className='mobilegetbutton2' onClick={switchCompToSell}>Sell</button></span>
             </div>
-
-
-            
-
-            
-            
-
           
             <Instant_sell />
                

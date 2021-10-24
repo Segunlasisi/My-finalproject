@@ -9,25 +9,6 @@ const Login = () => {
     return (
 
      <div>
-{/* 
-<div className='landingpagemainflex'>
-      <div className='landingpageflex1'> 
-            <img className='landingpageimage' src={TradExpress} alt=""></img> 
-      </div>
-<div className='getnav'>
-  <div className='landingpageflex2'>
-      <a className='landingpagelink' href="" >Instant Buy/Sell</a>
-      <a className='landingpagelink' href="">Learn</a>
-     
-        <button className='instantbuysellbutton' href="">Log in</button>
-        
-       
-        <a className='instantsellgetstartedlink' href="">Get Started</a>
-    </div>
-</div>
-    
-
-</div> */}
 
             <div className='Loginpageform'>
                 <form>
@@ -50,8 +31,6 @@ const Login = () => {
                         <button className='loginbutton'>Login</button>
                     </div>
                     <div className='getlink2'>New User ? <a className='getlink' href="">Click here</a></div>
-
-
 
                 </form>
             </div>
